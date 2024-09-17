@@ -1,3 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 body{
     background-color: #252B42;
+    font-family: "Roboto";
+    width: 80%;
+    margin: auto;
+}
+.smile{
+    padding: 1.5rem;
+    background-color: #E64040;
+    border-radius: 12px;
+}
+.tick{
+    padding: 1.5rem;
+    background-color: #2DC071;
+    border-radius: 12px;
+}
+.creditCard{
+    padding: 1.5rem;
+    background-color: #23A6F0;
+    border-radius: 12px;
+}
+.whiteFont{
+    color: #fff;
+}
+.lightButton{
+    background-color: #23A6F0;
+    border: none;
+    border-radius: 12px;
+    height: 3rem;
+    width: 9rem;
+    font-weight: bold;
+}
+.darkButton{
+    background-color: #252B42;
+    border: 2px solid #23A6F0;
+    color: #23A6F0;
+    border-radius: 12px;
+    height: 3rem;
+    width: 9rem;
+    font-weight: bold;
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.upper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
